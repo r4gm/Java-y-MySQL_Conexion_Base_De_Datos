@@ -1,4 +1,4 @@
-# 6.11-Java-y-MySQL
+#  Java-y-MySQL_Conexion_Base_De_Datos
 Este repositorio contiene los códigos del curso de MySQL y Java
 
 Descripción: En este curso encontrarás cómo conectar MySQL con Java.
