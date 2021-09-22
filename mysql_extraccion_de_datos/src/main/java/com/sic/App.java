@@ -31,10 +31,13 @@ public class App {
                 csvWriter.append(String.valueOf(rs.getInt(1))+","+String.valueOf(rs.getString(2))+","+String.valueOf(rs.getString(3))+","+String.valueOf(rs.getString(4))+'\n');
                 // Impresión de los valores
                 System.out.println(rs.getInt(1) + "  " + rs.getString(2) + "  " + rs.getString(3) + " " + rs.getString(4));
-            }
+            } 
+            //Cerrar conexión de sql
             con.close();
+            //Cerrar archivo csv
             csvWriter.flush();
             csvWriter.close();
+
             // Se cierra la conexión
 
         } catch (Exception e) {
